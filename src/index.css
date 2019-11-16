@@ -11,3 +11,20 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+a {
+  color: aqua;
+}
+
+#root {
+  display: flex;
+  text-align: left;
+  flex-direction: column;
+  /* align-items: center; */
+  /* justify-content: center; */
+  background-color: #282c34;
+  min-height: 100vh;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  padding: 12px;
+}
